@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .contact {
+            background-color: #f8f8f8;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+        }
+
+        .contact-form button {
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover {
+            background-color: #ff5131;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        .accent-color {
+            color: #ff6f61;
+        }
+
+        .section-title {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .section-title:after {
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: #ff6f61;
+            content: "";
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    </style>
+    <title>Contact Us - MoGo</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar clearfix">
+                <img src="img/logo.svg" alt="logo" class="logo">
+                <nav>
+                    <ul class="menu">
+                        <li class="dropdown">
+                            <a style="color: yellowgreen;" href="#">More</a>
+                            <ul class="submenu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="service.html">Service</a></li>
+                                <li><a href="work.html">Work</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p>Have a question or want to work together? Send us a message!</p>
+            <form class="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MoGo. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
